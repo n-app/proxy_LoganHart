@@ -1,0 +1,18 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "proxy-server for hrsf FEC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon proxyServer.js"
+  },
+  "author": "Logan Hart",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
